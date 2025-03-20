@@ -12,4 +12,11 @@ for (let i=0 ; i<mails.length ; i++){
         emailcheck = true;
     }
 }
+//stampare un messaggio appropriato sull'esito del controllo
+if (emailcheck === true){
+    console.log('Sei stato invitato alla festa');
+}
+else{
+    console.log('Non sei stato invitato alla festa');
+}
 
