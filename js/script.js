@@ -26,6 +26,13 @@ let player1= 'Ciccio';
 let player2= 'Computer';
 console.log(player1);
 console.log(player2);
+//essendoci due giocatori devo creare due variabili per i due dadi (cioè i due giocatori)
+//creo la variabile del dado del giocatore 1
+let dado1 = Math.floor(Math.random()*6)+1;
+console.log(dado1);
+//creo la variabile del dado del giocatore 2
+let dado2 = Math.floor(Math.random()*6)+1;
+console.log(dado2);
 
 
 
