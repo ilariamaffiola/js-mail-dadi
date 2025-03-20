@@ -33,6 +33,7 @@ console.log(dado1);
 //creo la variabile del dado del giocatore 2
 let dado2 = Math.floor(Math.random()*6)+1;
 console.log(dado2);
+alert('Player 1 ha lanciato il dato e ha ottenuto' + ' ' + dado1 + ' ' + 'Computer ha lanciato il dado e ha ottenuto' + ' ' + dado2);
 
 
 
