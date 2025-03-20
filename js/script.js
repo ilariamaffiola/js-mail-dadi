@@ -34,7 +34,19 @@ console.log(dado1);
 let dado2 = Math.floor(Math.random()*6)+1;
 console.log(dado2);
 alert('Player 1 ha lanciato il dato e ha ottenuto' + ' ' + dado1 + ' ' + 'Computer ha lanciato il dado e ha ottenuto' + ' ' + dado2);
-
+//creo un if per stabilire chi è il vincitore
+if (dado1>dado2){
+    console.log ('Il vincitore è ' + player1);
+    alert('Il vincitore è ' + player1);
+}
+else if(dado1<dado2){
+    console.log('Il vincitore è ' + player2);
+    alert('Il vincitore è ' + player2);
+}
+else{
+    console.log('Pareggio');
+    alert('Siete pari!');
+}
 
 
 
